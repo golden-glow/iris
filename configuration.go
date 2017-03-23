@@ -574,7 +574,7 @@ var (
 	// Defaults to false
 	OptionSessionsDecodeCookie = func(val bool) OptionSet {
 		return func(c *Configuration) {
-			c.Sessions.DecodeCookie = val
+			// c.Sessions.DecodeCookie = val
 		}
 	}
 
@@ -620,9 +620,9 @@ const (
 // DefaultSessionsConfiguration the default configs for Sessions
 func DefaultSessionsConfiguration() SessionsConfiguration {
 	return SessionsConfiguration{
-		Cookie:                      DefaultCookieName,
-		CookieLength:                DefaultCookieLength,
-		DecodeCookie:                false,
+		Cookie:       DefaultCookieName,
+		CookieLength: DefaultCookieLength,
+		// DecodeCookie:                false,
 		Expires:                     0,
 		DisableSubdomainPersistence: false,
 	}

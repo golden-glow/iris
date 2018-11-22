@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/golden-glow/go-options"
+	"github.com/golden-glow/go-sessions"
 	"github.com/imdario/mergo"
-	"github.com/kataras/go-options"
-	"github.com/kataras/go-sessions"
 	"github.com/valyala/fasthttp"
 )
 

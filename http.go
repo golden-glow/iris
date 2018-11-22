@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/geekypanda/httpcache"
-	"github.com/iris-contrib/letsencrypt"
-	"github.com/kataras/go-errors"
+	"github.com/golden-glow/go-errors"
+	"github.com/golden-glow/iris-contrib/letsencrypt"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpadaptor"
 	"golang.org/x/crypto/acme/autocert"

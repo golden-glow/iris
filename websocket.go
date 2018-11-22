@@ -1,8 +1,11 @@
 package iris
 
 import (
-	irisWebsocket "gopkg.in/iris-contrib/websocket.v5"
-	"gopkg.in/kataras/go-websocket.v0"
+	// irisWebsocket "gopkg.in/iris-contrib/websocket.v5"
+	// "gopkg.in/kataras/go-websocket.v0"
+
+	"github.com/golden-glow/go-websocket"
+	irisWebsocket "github.com/golden-glow/iris-contrib/websocket"
 )
 
 // conversionals

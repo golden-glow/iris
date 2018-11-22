@@ -66,13 +66,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kataras/go-errors"
-	"github.com/kataras/go-fs"
-	"github.com/kataras/go-serializer"
-	"github.com/kataras/go-sessions"
-	"github.com/kataras/go-template"
-	"github.com/kataras/go-template/html"
-	"gopkg.in/kataras/iris.v5/utils"
+	"github.com/golden-glow/go-errors"
+	"github.com/golden-glow/go-fs"
+	"github.com/golden-glow/go-serializer"
+	"github.com/golden-glow/go-sessions"
+	"github.com/golden-glow/go-template"
+	"github.com/golden-glow/go-template/html"
+	// "gopkg.in/kataras/iris.v5/utils"
+	"github.com/golden-glow/iris/utils"
 	"github.com/valyala/fasthttp"
 )
 

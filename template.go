@@ -1,8 +1,8 @@
 package iris
 
 import (
-	"github.com/kataras/go-fs"
-	"github.com/kataras/go-template"
+	"github.com/golden-glow/go-fs"
+	"github.com/golden-glow/go-template"
 	"io"
 )
 
